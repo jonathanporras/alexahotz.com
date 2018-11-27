@@ -1,1 +1,1 @@
-Website for CREATIVE DIRECTOR, Alexa Hotz <3
+Website for CREATIVE DIRECTOR, EDITOR and INTERIOR STYLIST Alexa Hotz <3
