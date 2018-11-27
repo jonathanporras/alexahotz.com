@@ -1,0 +1,31 @@
+ body, html {
+  width: 100%;
+  margin: 0;
+}
+
+.landing-page-background-image { 
+  /* Full height */
+  width: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  -webkit-transform:scale(1,1.6); /* Safari and Chrome */
+  -moz-transform:scale(1,1.6); /* Firefox */
+  -ms-transform:scale(1,1.6); /* IE 9 */
+  -o-transform:scale(1,1.6); /* Opera */
+  transform:scale(1,1.6); /* W3C */
+}
+
+.landing-page-wrapper {
+  position: relative;
+}
+
+.landing-page-text-wrapper {
+  position: absolute;
+  top: 0;
+}
