@@ -1,6 +1,14 @@
- body, html {
-  width: 100%;
+@font-face {
+  font-family: 'Charter';
+  src: url('../fonts/f41cf8a2-fbee-4e0a-b9a1-bfd20509d475.eot');
+  src: url('../fonts/7b22595f-47e6-4a66-9ec8-20be7208e5a9.woff') format('woff');
+  src: url('../fonts/074e63c5-808e-4644-a6dd-7f6435950d52.ttf') format('truetype');
+}
+
+body, html {
+  font-family: 'Charter';
   margin: 0;
+  width: 100%;
 }
 
 .landing-page-background-image { 
@@ -14,11 +22,15 @@
 }
 
 h1 {
-  -webkit-transform:scale(1,1.6); /* Safari and Chrome */
-  -moz-transform:scale(1,1.6); /* Firefox */
-  -ms-transform:scale(1,1.6); /* IE 9 */
-  -o-transform:scale(1,1.6); /* Opera */
-  transform:scale(1,1.6); /* W3C */
+  -webkit-transform:scale(1,1.5); /* Safari and Chrome */
+  -moz-transform:scale(1,1.5); /* Firefox */
+  -ms-transform:scale(1,1.5); /* IE 9 */
+  -o-transform:scale(1,1.5); /* Opera */
+  transform: scale(1,1.5); /* W3C */
+  letter-spacing: 18px;
+  font-size: 30px;
+  font-weight: 100;
+  color: #fff;
 }
 
 .landing-page-wrapper {
@@ -28,4 +40,13 @@ h1 {
 .landing-page-text-wrapper {
   position: absolute;
   top: 0;
+  margin: 10px 57px;
+}
+
+.landing-page-text-block.name {
+  margin-bottom: 65px;
+}
+
+.landing-page-text-block.skills {
+  margin-bottom: 110px;
 }
