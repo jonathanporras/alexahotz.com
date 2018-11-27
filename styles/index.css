@@ -22,13 +22,14 @@ body, html {
 }
 
 h1 {
-  -webkit-transform:scale(1,1.5); /* Safari and Chrome */
-  -moz-transform:scale(1,1.5); /* Firefox */
-  -ms-transform:scale(1,1.5); /* IE 9 */
-  -o-transform:scale(1,1.5); /* Opera */
-  transform: scale(1,1.5); /* W3C */
-  letter-spacing: 18px;
-  font-size: 30px;
+  -webkit-transform: scale(1, 1.9); /* Safari and Chrome */
+  -moz-transform: scale(1, 1.9); /* Firefox */
+  -ms-transform: scale(1, 1.9); /* IE 9 */
+  -o-transform: scale(1, 1.9); /* Opera */
+  transform: scale(1, 1.9); /* W3C */
+  letter-spacing: 16px;
+  line-height: 2.5;
+  font-size: 25px;
   font-weight: 100;
   color: #fff;
 }
@@ -48,5 +49,5 @@ h1 {
 }
 
 .landing-page-text-block.skills {
-  margin-bottom: 110px;
+  margin-bottom: 130px;
 }
