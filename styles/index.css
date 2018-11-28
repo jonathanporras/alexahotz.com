@@ -11,16 +11,6 @@ body, html {
   width: 100%;
 }
 
-.landing-page-background-image { 
-  /* Full height */
-  width: 100%; 
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 h1 {
   -webkit-transform: scale(1, 1.9); /* Safari and Chrome */
   -moz-transform: scale(1, 1.9); /* Firefox */
@@ -36,6 +26,12 @@ h1 {
 
 .landing-page-wrapper {
   position: relative;
+  background: url('../images/ah-oliveoil.jpg') no-repeat 50% 50%;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  height: 100%;
 }
 
 .landing-page-text-wrapper {
