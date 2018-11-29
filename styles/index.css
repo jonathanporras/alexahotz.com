@@ -8,7 +8,7 @@
 body, html {
   font-family: 'Charter';
   margin: 0;
-  width: 100%;
+  height: 100%;
 }
 
 h1 {
@@ -26,12 +26,11 @@ h1 {
 
 .landing-page-wrapper {
   position: relative;
-  background: url('../images/ah-oliveoil.jpg') no-repeat 50% 50%;
+  background-color: white;
+  background-image: url('../images/ah-oliveoil.jpg');
   background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  -webkit-background-size: cover;
-  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
   overflow: hidden;
 }
 
@@ -47,4 +46,24 @@ h1 {
 
 .landing-page-text-block.skills {
   margin-bottom: 130px;
+}
+
+@media (max-width: 1000px) {
+  .landing-page-wrapper {
+    background-image: url('../images/mobile-image-ah-oil.jpg');
+  }
+
+  .landing-page-text-wrapper {
+    margin: 27px 38px;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 600px) {
+  .landing-page-text-wrapper {
+    margin-left: 5px;
+  }
 }
