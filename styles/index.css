@@ -63,7 +63,16 @@ h1 {
 }
 
 @media (max-width: 600px) {
+  h1 {
+    line-height: 34px;
+    display: inline-block;
+    margin: 54px 0;
+  }
   .landing-page-text-wrapper {
-    margin-left: 5px;
+    width: 100%;
+  }
+  .landing-page-text-block.contact h1 {
+    font-size: 16px;
+    margin: 0 0 15px 0;
   }
 }

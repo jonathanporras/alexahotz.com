@@ -33,7 +33,8 @@
     }
 
     function handleBackgroundImgHeight () {
-      var minHeight = window.innerHeight > 650 ? window.innerHeight : 725;
+      var textWrapperHeight = document.querySelector('.landing-page-text-wrapper').offsetHeight + 25;
+      var minHeight = window.innerHeight > textWrapperHeight ? window.innerHeight : textWrapperHeight;
       document.querySelector('.landing-page-wrapper').style.height = minHeight + 'px';
     }
   </script>
