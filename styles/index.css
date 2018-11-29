@@ -19,7 +19,7 @@ h1 {
   transform: scale(1, 1.9); /* W3C */
   letter-spacing: 16px;
   line-height: 2.5;
-  font-size: 34px;
+  font-size: 30px;
   font-weight: 100;
   color: #fff;
 }
@@ -32,6 +32,7 @@ h1 {
   background-repeat: no-repeat;
   background-position: center;
   overflow: hidden;
+  min-width: 536px;
 }
 
 .landing-page-text-wrapper {
@@ -62,7 +63,7 @@ h1 {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   h1 {
     line-height: 34px;
     display: inline-block;
