@@ -27,7 +27,7 @@ h1 {
 .landing-page-wrapper {
   position: relative;
   background-color: white;
-  background-image: url('../images/ah-oliveoil.jpg');
+  background-image: url('../images/ah-oliveoil-edit.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -51,7 +51,7 @@ h1 {
 
 @media (max-width: 1000px) {
   .landing-page-wrapper {
-    background-image: url('../images/mobile-image-ah-oil.jpg');
+    background-image: url('../images/mobile-image-ah-oil-edit.jpg');
   }
 
   .landing-page-text-wrapper {
