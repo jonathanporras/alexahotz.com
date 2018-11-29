@@ -25,12 +25,16 @@
     if (window.addEventListener) {
       // W3C standard
       window.addEventListener('load', handleBackgroundImgHeight, false);
+      window.addEventListener('resize', handleBackgroundImgHeight, false);
     } else if (window.attachEvent) {
       // Microsoft
       window.attachEvent('onload', handleBackgroundImgHeight);
+      window.attachEvent('resize', handleBackgroundImgHeight, false);
     }
+
     function handleBackgroundImgHeight () {
-      document.querySelector('.landing-page-wrapper').style.height = window.innerHeight + 'px';
+      var minHeight = window.innerHeight > 650 ? window.innerHeight : 725;
+      document.querySelector('.landing-page-wrapper').style.height = minHeight + 'px';
     }
   </script>
 </body>
