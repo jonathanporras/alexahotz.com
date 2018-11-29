@@ -32,7 +32,7 @@ h1 {
   background-repeat: no-repeat;
   background-position: center;
   overflow: hidden;
-  min-width: 536px;
+  min-width: 780px;
 }
 
 .landing-page-text-wrapper {
@@ -64,16 +64,11 @@ h1 {
 }
 
 @media (max-width: 700px) {
-  h1 {
-    line-height: 34px;
-    display: inline-block;
-    margin: 54px 0;
-  }
   .landing-page-text-wrapper {
     width: 100%;
   }
+
   .landing-page-text-block.contact h1 {
-    font-size: 16px;
     margin: 0 0 15px 0;
   }
 }
