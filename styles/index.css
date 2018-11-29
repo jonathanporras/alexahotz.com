@@ -42,11 +42,11 @@ h1 {
 }
 
 .landing-page-text-block.name {
-  margin-bottom: 65px;
+  margin-bottom: 60px;
 }
 
 .landing-page-text-block.skills {
-  margin-bottom: 130px;
+  margin-bottom: 60px;
 }
 
 @media (max-width: 1000px) {
