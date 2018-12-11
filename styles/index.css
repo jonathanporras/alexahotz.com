@@ -49,6 +49,11 @@ h1 {
   margin-bottom: 60px;
 }
 
+.landing-page-mailto-link {
+  color: #fff;
+  text-decoration: none;
+}
+
 @media (max-width: 1000px) {
   .landing-page-wrapper {
     background-image: url('../images/mobile-image-ah-oil-edit.jpg');
